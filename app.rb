@@ -5,7 +5,7 @@ class App < Sinatra::Basesho
     erb :newteam
   end
 
-  post "/newteam" do
+  post "/team" do
     @team_name = params[:name]
     @coach = params[:coach]
     @shooting_guard = params[:sg]
