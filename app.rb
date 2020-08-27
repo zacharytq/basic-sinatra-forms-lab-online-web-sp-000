@@ -10,7 +10,7 @@ class App < Sinatra::Base
     @coach = params[:coach]
     @shooting_guard = params[:sg]
     @point_guard = params[:pg]
-    @center = params[:center]
+    @center = params[:c]
     @power_forward = params[:pf]
     @small_forward = params[:sf]
     erb :team
